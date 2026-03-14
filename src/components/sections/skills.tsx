@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 // Official Brand Icons
 import { 
   SiC, SiCplusplus, SiJavascript,
-  SiAmazonaws, SiMicrosoftazure, SiGooglecloud, SiFirebase, SiOracle,
+  SiGooglecloud, SiFirebase,
   SiFastapi, SiNodedotjs, SiNextdotjs, SiExpress, SiJsonwebtokens, SiSocketdotio,
   SiVite, SiReact, SiThreedotjs, SiWeb3Dotjs,
   SiNodemon,
@@ -17,7 +17,11 @@ import {
   SiPytorch, SiTensorflow, SiNumpy, SiPandas, SiScikitlearn,
   SiGit, SiGithub
 } from "react-icons/si";
-import { FaBrain, FaChartLine, FaRobot } from "react-icons/fa";
+import { FaBrain, FaChartLine, FaRobot, FaAmazon } from "react-icons/fa";
+import { VscAzure } from "react-icons/vsc";
+import { GrOracle } from "react-icons/gr";
+import { FaLinkedin } from "react-icons/fa";
+
 
 const SKILL_CATEGORIES = [
   {
@@ -31,11 +35,11 @@ const SKILL_CATEGORIES = [
   {
     category: "Cloud",
     skills: [
-      { name: "AWS", icon: <SiAmazonaws />, color: "#232F3E" },
-      { name: "Azure", icon: <SiMicrosoftazure />, color: "#0089D6" },
+      { name: "AWS", icon: <FaAmazon />, color: "#232F3E" },
+      { name: "Azure", icon: <VscAzure />, color: "#0089D6" },
       { name: "Google Cloud", icon: <SiGooglecloud />, color: "#4285F4" },
       { name: "Firebase", icon: <SiFirebase />, color: "#FFCA28" },
-      { name: "Oracle", icon: <SiOracle />, color: "#F80000" },
+      { name: "Oracle", icon: <GrOracle />, color: "#F80000" },
     ]
   },
   {
